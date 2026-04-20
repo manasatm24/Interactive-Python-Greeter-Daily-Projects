@@ -36,13 +36,13 @@ A CLI-based Python application that greets users with a personalized message usi
 ==================================================
  Welcome to Your Python Journey ✨
 ==================================================
- Enter your name: Raghu
+ Enter your name: Manasa
  Enter your hobby: Coding
 
 Loading your personalized message...
 
 ==================================================
- Hello, Raghu!
+ Hello, Manasa!
  Welcome to the world of Python programming!
  It's awesome that you love Coding.
  Today is a perfect day to build something amazing!
