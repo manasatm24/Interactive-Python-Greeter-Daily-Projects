@@ -86,7 +86,7 @@ Keep learning, keep building, keep winning!
  Enter task: Learn Python
 ✔ Task added!
 
-👉 Choose an option: 1
+Choose an option: 1
 
  Your Tasks:
 
@@ -105,7 +105,7 @@ Choose an option: 3
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 interactive-python-greeter/
