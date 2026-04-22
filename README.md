@@ -1,4 +1,4 @@
-# 🚀 Interactive Python Greeter & Daily Projects
+#  Interactive Python Greeter & Daily Projects
 
 A collection of **interactive Python mini-projects** built daily to improve programming skills and create real-world applications.
 
@@ -15,7 +15,7 @@ This repository documents my journey of learning Python by building **consistent
 
 ---
 
-## 📂 Projects
+##  Projects
 
 ###  Day 01 – Interactive Python Greeter
 
