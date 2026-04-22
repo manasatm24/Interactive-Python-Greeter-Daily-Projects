@@ -1,4 +1,4 @@
-#  Interactive Python Greeter & Daily Projects
+# Interactive Python Greeter & Daily Projects
 
 A collection of **interactive Python mini-projects** built daily to improve programming skills and create real-world applications.
 
@@ -6,18 +6,18 @@ This repository documents my journey of learning Python by building **consistent
 
 ---
 
-##  About This Repository
+## About This Repository
 
-*  Daily Python project uploads
-*  Focus on logic building and problem solving
-*  Hands-on approach to learning
-*  Continuous improvement and consistency
+* Daily Python project uploads
+* Focus on logic building and problem solving
+* Hands-on approach to learning
+* Continuous improvement and consistency
 
 ---
 
-##  Projects
+## Projects
 
-###  Day 01 – Interactive Python Greeter
+### Day 01 – Interactive Python Greeter
 
 A CLI-based Python application that greets users with a personalized message using a typing animation.
 
@@ -30,22 +30,35 @@ A CLI-based Python application that greets users with a personalized message usi
 
 ---
 
-###  Day 02 – CLI To-Do App
+### Day 02 – CLI To-Do App
 
 A command-line based To-Do application to manage daily tasks efficiently with persistent storage.
 
 **Features:**
 
-*  Add new tasks
-*  View all tasks
-*  Mark tasks as completed
-*  Delete tasks
-*  Save tasks using JSON (data persists after closing app)
-*  Simple and user-friendly CLI interface
+* Add new tasks
+* View all tasks
+* Mark tasks as completed
+* Delete tasks
+* Save tasks using JSON (data persists after closing app)
+* Simple and user-friendly CLI interface
 
 ---
 
-##  Demo
+### Day 03 – Password Generator
+
+A Python program that generates strong, random passwords based on user-defined length.
+
+**Features:**
+
+* User inputs desired password length
+* Generates secure random passwords
+* Includes letters, numbers, and special characters
+* Fast and simple CLI tool
+
+---
+
+## Demo
 
 ### Day 01 Output
 
@@ -86,7 +99,7 @@ Keep learning, keep building, keep winning!
  Enter task: Learn Python
 ✔ Task added!
 
-Choose an option: 1
+ Choose an option: 1
 
  Your Tasks:
 
@@ -105,6 +118,15 @@ Choose an option: 3
 
 ---
 
+### Day 03 Output (Password Generator)
+
+```
+Enter password length: 10
+Generated Password: A@7k#Pz1Lm
+```
+
+---
+
 ##  Repository Structure
 
 ```
@@ -119,43 +141,49 @@ interactive-python-greeter/
 │   ├── tasks.json
 │   └── README.md
 │
-├── day-03-<project-name>/
+├── day-03-password-generator/
+│   ├── password.py
+│   └── README.md
 │
 └── README.md
 ```
 
 ---
 
-##  How to Run Projects
+## How to Run Projects
 
 1. Clone the repository:
 
-```bash
+```
 git clone https://github.com/your-username/interactive-python-greeter.git
 ```
 
 2. Navigate to a project folder:
 
-```bash
+```
 cd day-01-greeter
 # OR
 cd day-02-todo-cli
+# OR
+cd day-03-password-generator
 ```
 
 3. Run the project:
 
-```bash
+```
 python main.py
 # OR
 python todo.py
+# OR
+python password.py
 ```
 
 ---
 
-##  Technologies Used
+## Technologies Used
 
 * Python 3
-* Standard Libraries (`time`, `json`, `os`)
+* Standard Libraries (`time`, `json`, `os`, `random`, `string`)
 
 ---
 
@@ -168,36 +196,33 @@ python todo.py
 
 ---
 
-##  Upcoming Projects
+## Upcoming Projects
 
-*  Password Generator
 * Quiz Game
-*  File Organizer
-*  Weather App (API-based)
-*  Web version of To-Do App (Flask / FastAPI)
+* File Organizer
+* Weather App (API-based)
+* Web version of To-Do App (Flask / FastAPI)
 
 ---
 
-##  Contribution
+## Contribution
 
 This is a personal learning repository, but suggestions are welcome.
 
 ---
 
-##  License
+## License
 
 Open-source and free to use.
 
 ---
 
-##  Note
+## Note
 
 This repository represents a **daily coding journey** focused on learning by building.
 
 ---
 
-##  Quote
+## Quote
 
 **Consistency builds skill. One project every day.**
-
-
