@@ -58,6 +58,19 @@ A Python program that generates strong, random passwords based on user-defined l
 
 ---
 
+### Day 04 – Quiz Game
+
+A CLI-based Python quiz application that tests user knowledge with multiple-choice questions.
+
+**Features:**
+
+* Multiple-choice questions
+* Instant feedback (correct/wrong)
+* Score tracking
+* Simple and interactive CLI experience
+
+---
+
 ## Demo
 
 ### Day 01 Output
@@ -127,23 +140,44 @@ Generated Password: A@7k#Pz1Lm
 
 ---
 
-##  Repository Structure
+### Day 04 Output (Quiz Game)
+
+```
+ Welcome to the Quiz Game!
+
+1. What is the capital of India?
+A. Mumbai
+B. Delhi
+C. Chennai
+D. Kolkata
+Enter your answer: B
+Correct!
+
+...
+
+Quiz Finished!
+Your Score: 3/4
+```
+
+---
+
+## Repository Structure
 
 ```
 interactive-python-greeter/
 │
 ├── day-01-greeter/
-│   ├── main.py
-│   └── README.md
+│   ├── main.py  
 │
 ├── day-02-todo-cli/
 │   ├── todo.py
 │   ├── tasks.json
-│   └── README.md
 │
 ├── day-03-password-generator/
 │   ├── password.py
-│   └── README.md
+│
+├── day-04-quiz-game/
+│   ├── quiz_game.py 
 │
 └── README.md
 ```
@@ -166,6 +200,8 @@ cd day-01-greeter
 cd day-02-todo-cli
 # OR
 cd day-03-password-generator
+# OR
+cd day-04-quiz-game
 ```
 
 3. Run the project:
@@ -176,6 +212,8 @@ python main.py
 python todo.py
 # OR
 python password.py
+# OR
+python quiz_game.py
 ```
 
 ---
@@ -198,7 +236,6 @@ python password.py
 
 ## Upcoming Projects
 
-* Quiz Game
 * File Organizer
 * Weather App (API-based)
 * Web version of To-Do App (Flask / FastAPI)
