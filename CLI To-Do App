@@ -84,15 +84,15 @@ def main():
 
         choice = input(" Choose an option: ")
 
-        if choice == "1":
+        if choice == "a":
             view_tasks(tasks)
-        elif choice == "2":
+        elif choice == "b":
             add_task(tasks)
-        elif choice == "3":
+        elif choice == "c":
             complete_task(tasks)
-        elif choice == "4":
+        elif choice == "d":
             delete_task(tasks)
-        elif choice == "5":
+        elif choice == "e":
             print(" Goodbye!")
             break
         else:
