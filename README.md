@@ -237,9 +237,6 @@ python quiz_game.py
 ## Upcoming Projects
 
 * File Organizer
-* Weather App (API-based)
-* Web version of To-Do App (Flask / FastAPI)
-
 ---
 
 ## Contribution
