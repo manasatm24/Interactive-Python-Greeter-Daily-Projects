@@ -1,0 +1,31 @@
+mport os
+import shutil
+source_folder = r"C:\Users\TM MANASA\OneDrive\Desktop\my project"
+file_types = {
+    "Images": [".jpg", ".jpeg", ".png"],
+    "Documents": [".pdf", ".docx", ".txt"],
+    "Videos": [".mp4"],
+    "Music": [".mp3"],
+    "Others": []
+}
+for folder in file_types:
+    path = os.path.join(source_folder, folder)
+    os.makedirs(path, exist_ok=True)
+for file in os.listdir(source_folder):
+    file_path = os.path.join(source_folder, file)
+    if os.path.isdir(file_path):
+        continue
+    _, ext = os.path.splitext(file)
+    moved = False
+    for folder, extensions in file_types.items():
+        if ext.lower() in extensions:
+            destination = os.path.join(source_folder, folder, file)
+            if not os.path.exists(destination):
+                shutil.move(file_path, destination)
+            else:
+                print(f"Skipped: {file}")
+            moved = True
+            break
+    if not moved:
+        shutil.move(file_path, os.path.join(source_folder, "Others", file))
+print("Done ✅")
