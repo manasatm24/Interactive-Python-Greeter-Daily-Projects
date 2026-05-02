@@ -71,6 +71,27 @@ A CLI-based Python quiz application that tests user knowledge with multiple-choi
 
 ---
 
+### Day 05 – File Organizer
+
+A Python automation tool that organizes files in a selected folder by sorting them into categories based on file types.
+
+**Features:**
+
+* Automatically scans a folder (e.g., Downloads/Desktop)
+* Organizes files into categories:
+
+  * Images
+  * Documents
+  * Videos
+  * Music
+  * Others
+* Creates folders automatically if they don’t exist
+* Prevents duplicate file overwrite
+* Simple and efficient file management
+* Saves time by reducing manual sorting
+
+---
+
 ## Demo
 
 ### Day 01 Output
@@ -161,6 +182,22 @@ Your Score: 3/4
 
 ---
 
+### Day 05 Output (File Organizer)
+
+```
+Scanning folder...
+Creating folders if not exist...
+Organizing files...
+
+✔ Moved: photo.jpg → Images
+✔ Moved: resume.pdf → Documents
+✔ Moved: song.mp3 → Music
+
+✅ Files organized successfully!
+```
+
+---
+
 ## Repository Structure
 
 ```
@@ -178,6 +215,9 @@ interactive-python-greeter/
 │
 ├── day-04-quiz-game/
 │   ├── quiz_game.py 
+│
+├── day-05-file-organizer/
+│   ├── organizer.py
 │
 └── README.md
 ```
@@ -202,6 +242,8 @@ cd day-02-todo-cli
 cd day-03-password-generator
 # OR
 cd day-04-quiz-game
+# OR
+cd day-05-file-organizer
 ```
 
 3. Run the project:
@@ -214,6 +256,8 @@ python todo.py
 python password.py
 # OR
 python quiz_game.py
+# OR
+python organizer.py
 ```
 
 ---
@@ -221,7 +265,7 @@ python quiz_game.py
 ## Technologies Used
 
 * Python 3
-* Standard Libraries (`time`, `json`, `os`, `random`, `string`)
+* Standard Libraries (`time`, `json`, `os`, `random`, `string`, `shutil`)
 
 ---
 
@@ -236,7 +280,10 @@ python quiz_game.py
 
 ## Upcoming Projects
 
-* File Organizer
+* GUI-based Applications
+* Automation Tools
+* Mini AI-based Projects
+
 ---
 
 ## Contribution
