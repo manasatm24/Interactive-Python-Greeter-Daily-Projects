@@ -106,7 +106,7 @@ Enter your hobby: Coding
 Loading your personalized message...
 
 ==================================================
-Hello, Manasa!
+Hello, Poorvika!
 Welcome to the world of Python programming!
 It's awesome that you love Coding.
 Today is a perfect day to build something amazing!
