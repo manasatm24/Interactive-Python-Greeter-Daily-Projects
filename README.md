@@ -306,4 +306,4 @@ This repository represents a **daily coding journey** focused on learning by bui
 
 ## Quote
 
-**Consistency builds skills. One project every day.**
+**The expert at anything was once a beginner.**
