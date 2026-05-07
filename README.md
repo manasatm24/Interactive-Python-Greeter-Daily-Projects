@@ -300,7 +300,7 @@ Open-source and free to use.
 
 ## Note
 
-This repository represents a **daily coding journey** focused on learning by building.
+This repository represents a **daily coding journey** focused on learning and  building.
 
 ---
 
