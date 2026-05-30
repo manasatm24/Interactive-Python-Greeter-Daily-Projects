@@ -171,7 +171,7 @@ A. Mumbai
 B. Delhi
 C. Chennai
 D. Kolkata
-Enter your answer: B
+Enter your answer: c
 Correct!
 
 ...
