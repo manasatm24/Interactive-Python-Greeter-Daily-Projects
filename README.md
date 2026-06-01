@@ -303,7 +303,3 @@ Open-source and free to use.
 This repository represents a **daily coding journey** focused on learning and  building.
 
 ---
-
-## Quote
-
-**The expert at anything was once a beginner.**
